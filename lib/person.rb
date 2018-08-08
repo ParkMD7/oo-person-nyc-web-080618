@@ -92,7 +92,9 @@ class Person
     elsif topic == "weather"
       person.happiness += 1
       self.happiness += 1
-        return 
+        return "blah blah sun blah rain"
+    else
+      return 
     end
   end
   
